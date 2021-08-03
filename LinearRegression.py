@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import linear_model,datasets
 
-#Pull
+
 data= pd.read_csv('machine_learning/data_hw.csv')
 data.info()
 data[['Height','Weight']].head(20)
